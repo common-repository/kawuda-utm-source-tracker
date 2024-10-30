@@ -1,0 +1,339 @@
+#country-list {
+    float: left;
+    list-style: none;
+    margin-top: -3px;
+    padding: 0;
+    width: 190px;
+    position: absolute;
+}
+
+#country-list li {
+    padding: 10px;
+    background: #f0f0f0;
+    border-bottom: #bbb9b9 1px solid;
+}
+
+#country-list li:hover {
+    background: #d1ecf1;
+    cursor: pointer;
+}
+
+#search-box {
+    padding: 10px;
+    border: #d1ecf1 1px solid;
+    border-radius: 4px;
+}
+
+.fsms_notification {
+    box-shadow: 0 1px 2px 0 rgba(48, 48, 48, .30), 0 1px 3px 1px rgba(48, 48, 48, .15);
+    padding: .625rem 1.5rem;
+
+    background-color: #d1ecf1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: .625rem 1.25rem .9375rem;
+    position: relative;
+    width: 100%;
+
+    color: #6c757d;
+
+
+}
+
+.fsms_notification p {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: left;
+}
+
+.fsms_notification .headerTxt {
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.fsms_notification ul ol {
+    list-style-type: decimal;
+    display: list-item;
+    list-style-position: inside;
+
+}
+
+/*frontEndLeadForm*/
+.frontEndLeadForm table tr td {
+    text-align: left;
+}
+
+/*common*/
+.kawuda_div .pending {
+    color: orange;
+}
+
+.kawuda_div .approveC {
+    color: green;
+}
+
+.kawuda_div .reject {
+    color: red;
+}
+
+.kawuda_div .loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.headerLinksDiv {
+
+}
+
+.headerLinkDiv {
+
+    height: 20px;
+    padding: 25px;
+    color: #fff;
+    background-color: #1ba1e2;
+    float: left;
+    margin: 5px;
+    border-radius: .25rem;
+}
+
+.headerLinkDiv a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.headerLinkDiv a:hover {
+    text-decoration: underline;
+}
+
+.reply {
+    padding-left: 50px;
+}
+
+#ui-datepicker-div {
+    background-color: #999;
+}
+
+.kawuda_div fieldset {
+    border: 2px solid #000;
+    margin-top: 25px;
+
+}
+
+.kawuda_div legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cursorPointer {
+    cursor: pointer;
+
+}
+
+/*Invoice*/
+.compnayAddressblock {
+    float: right;
+    min-height: 200px;
+}
+
+.customerAddressblock {
+    min-height: 200px;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.invoiceBlock {
+    padding: 20px;
+}
+
+.amount {
+    text-align: right;
+}
+
+.amountText {
+    text-align: right;
+}
+
+.headingAmount {
+    text-align: center;
+}
+
+.chargeSummaryBlcokClz table tr th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.chargeSummaryBlcokClz .grossCharge {
+    font-weight: bold;
+}
+
+.invoiceDetails {
+    text-align: right;
+}
+
+.invoiceTextId {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.invoiceTextDate {
+    font-size: 16px;
+}
+
+.kawuda_div table {
+    border-collapse: collapse;
+    width: 99%;
+    margin-top: 10px;
+}
+
+.kawuda_div caption {
+    background-color: rgba(0, 0, 0, .05);
+    color: #212529;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.kawuda_div input[type=button] {
+    color: #212529;
+    background-color: #ced4da;
+    border-color: #ced4da;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.kawuda_div input[type=submit] {
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.saveBtn {
+    color: #fff !important;
+    background-color: #1e7e34 !important;
+    border-color: #1c7430;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.kawuda_div input[type=submit]:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.kawuda_div input[type=button]:hover {
+    background-color: #ececec;
+    border-color: #b1bbc4;
+}
+
+.kawuda_div table thead tr {
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kawuda_div table thead tr th {
+    padding: 5px;
+    text-align: left;
+}
+
+.kawuda_div table tbody tr:nth-child(odd) td {
+    background-color: #fff;
+    padding: 5px;
+    text-align: left;
+}
+
+.kawuda_div table tbody tr:nth-child(even) td {
+    background-color: #dee2e6;
+    padding: 5px;
+    text-align: left;
+}
+
+.kawuda_div table tr {
+    padding: .75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    height: 50px;
+}
+
+.kawuda_div table tbody tr:hover td {
+    background-color: #ccc;
+}
+
+.cPointer {
+    padding: 5px;
+}
+
+.kawuda_div caption span {
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.kawuda_div textarea {
+    width: 400px;
+    height: 150px;
+}
+
+.kawuda_div select {
+    width: 250px;
+}
+
+.kawuda_div input[type=text] {
+    width: 250px;
+}
+
+.kawuda_div .number {
+    width: 70px;
+}
+
+.kawuda_div {
+    font-size: 16px;
+    color: #212529;
+}
+
+.kawuda_div .replyMessage {
+    color: #117a8b;
+}
